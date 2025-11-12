@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.css';
 
 function Header({ status }) { // NOVO: Recebe 'status' como prop
-  const imageUrl = "";
+  const imageUrl = "https://i.imgur.com/xqL6Jxx.jpeg";
 
   return (
     <div className="header">
@@ -12,7 +12,7 @@ function Header({ status }) { // NOVO: Recebe 'status' como prop
         <div className="chat-name-container">
           <span className="chat-name">Ana Beatriz</span>
           <img
-            src="https://i.imgur.com/xqL6Jxx.jpeg"
+            src="https://imgur.com/BwSw5kR"
             alt="Selo de Verificado"
             className="verified-badge"
           />
