@@ -108,7 +108,7 @@ function Message({ message, playingAudioId, setPlayingAudioId }) {
             </button>
             <div ref={waveformRef} className="waveform-container-real"></div>
             <div className="audio-duration">{duration}</div>
-            <img src="https://midia.jdfnu287h7dujn2jndjsifd.com/perfil.webp" alt="Avatar no áudio" className="audio-profile-pic" />
+            <img src="https://i.imgur.com/xqL6Jxx.jpeg" alt="Avatar no áudio" className="audio-profile-pic" />
             <MicrophoneIcon color={micColor} />
           </div>
         );
