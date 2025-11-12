@@ -3,16 +3,16 @@ import React from 'react';
 import './Header.css';
 
 function Header({ status }) { // NOVO: Recebe 'status' como prop
-  const imageUrl = "https://midia.jdfnu287h7dujn2jndjsifd.com/perfil.webp";
+  const imageUrl = "";
 
   return (
     <div className="header">
       <img src={imageUrl} alt="Foto de Perfil" className="profile-pic" />
       <div className="chat-info">
         <div className="chat-name-container">
-          <span className="chat-name">Thaisinha</span>
+          <span className="chat-name">Ana Beatriz</span>
           <img
-            src="https://i.imgur.com/BwSw5kR.png"
+            src="https://i.imgur.com/xqL6Jxx.jpeg"
             alt="Selo de Verificado"
             className="verified-badge"
           />
