@@ -37,4 +37,18 @@ function MessageInput({ onSendMessage, inputEnabled, buttons }) {
     );
   }
 
+  return (
+    <form className="message-input" onSubmit={handleTextSubmit}>
+      <input
+        type="text"
+        placeholder={inputEnabled ? "Digite sua mensagem..." : "Aguarde a resposta..."}
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        disabled={!inputEnabled}
+      />
+      <button type="submit" disabled={!inputEnabled}>➤</button>
+    </form>
+  );
+}
+
 export default MessageInput;
