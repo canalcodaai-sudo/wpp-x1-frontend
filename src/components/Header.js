@@ -12,7 +12,7 @@ function Header({ status }) { // NOVO: Recebe 'status' como prop
         <div className="chat-name-container">
           <span className="chat-name">Ana Beatriz</span>
           <img
-            src="https://imgur.com/BwSw5kR"
+            src="https://i.imgur.com/BwSw5kR.png"
             alt="Selo de Verificado"
             className="verified-badge"
           />
