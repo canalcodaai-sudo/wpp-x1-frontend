@@ -143,7 +143,7 @@ function Message({ message, playingAudioId, setPlayingAudioId }) {
 
     return (
       <div className="message-container bot-message">
-        <img src="https://midia.jdfnu287h7dujn2jndjsifd.com/perfil.webp" alt="Avatar" className="avatar" />
+        <img src="https://i.imgur.com/xqL6Jxx.jpeg" alt="Avatar" className="avatar" />
         {contentNode}
       </div>
     );
